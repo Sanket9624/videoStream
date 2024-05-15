@@ -37,7 +37,7 @@ const uploadVideo = (req, res) => {
         fileStream = file;
 
         // Generate a unique filename
-        const fileName = uuidv4(); // You can use any naming convention
+        const fileName = uuidv4(); 
 
         try {
             // Upload the file to S3
